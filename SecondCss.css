@@ -1,0 +1,95 @@
+body {
+	background :  	#3B3E47;
+}
+header {
+	text-align :center;
+background: #4A4E57;
+
+
+color: #B6707F;
+}
+
+.table {
+	width:600px;
+	position:relative;
+	margin:0 auto;
+	
+}
+
+	li:nth-child(even)
+	{
+   background-color: #8883A1;
+
+   
+ }
+ li:nth-child(odd)
+	{
+   background-color: #7A7691;
+
+ }
+
+input[type="checkbox"] {
+
+}
+ul{
+    position: relative;
+    margin: 0 auto;
+     width: 600px;
+     list-style-type: none;
+     counter-reset: li;
+     padding: 0;    
+     margin-top: 25px;
+ }
+
+li:hover{
+   background: #625e78;
+   display: block;
+   border-top: 2px solid white;
+   border-bottom: 2px solid white;
+}
+li:active{
+    background-color: orange;
+}
+li
+{
+
+padding:10;
+	
+
+	
+	}
+input[type="checkbox"]:checked + label {
+    color:gray;
+	text-decoration:line-through
+}
+.Bon{
+ 	background: #4A4E57;
+    color: #D08495;
+    text-align: center;
+    font-size: 20px;
+    width: 581px;
+    padding: 10px;
+    position: relative;
+    margin: auto;
+   margin-top: 25px;
+}
+	
+	span.WE
+	{
+	color:silver
+	}
+
+	span.QW
+	{
+		font-size:20;
+		color:white;
+	}
+ 
+
+	
+	
+	
+
+
+
+
